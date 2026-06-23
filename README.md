@@ -1,6 +1,6 @@
 # Qt Calculator
 
-🔗 **[Try my Calculator live](https://alpharianosei2005-maker.github.io/QtCalculator/)**
+🔗 **[Try my calculator live](https://alpharianosei2005-maker.github.io/QtCalculator/)**
 
 A desktop calculator built with C++17 and the Qt 6 Widgets framework, designed around a clean separation between business logic and UI — the same architectural pattern used in production desktop and embedded software.
 
