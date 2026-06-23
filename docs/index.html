@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator — Shadrack Ansah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="calculator">
+        <div class="screen-wrap">
+            <input id="display" type="text" value="0" readonly aria-label="Calculator display">
+        </div>
+        <div id="error-banner" class="error-banner" role="alert"></div>
+
+        <div class="keypad">
+            <button data-role="unary_sqrt">&radic;</button>
+            <button data-role="unary_square">x&sup2;</button>
+            <button data-role="unary_log">log</button>
+            <button data-role="clear" class="key-clear">C</button>
+
+            <button data-role="digit">7</button>
+            <button data-role="digit">8</button>
+            <button data-role="digit">9</button>
+            <button data-role="op_div">&divide;</button>
+
+            <button data-role="digit">4</button>
+            <button data-role="digit">5</button>
+            <button data-role="digit">6</button>
+            <button data-role="op_mul">&times;</button>
+
+            <button data-role="digit">1</button>
+            <button data-role="digit">2</button>
+            <button data-role="digit">3</button>
+            <button data-role="op_sub">&minus;</button>
+
+            <button data-role="digit">0</button>
+            <button data-role="decimal">.</button>
+            <button data-role="equals" class="key-equals">=</button>
+            <button data-role="op_add">+</button>
+        </div>
+
+        <p class="hint">Keyboard works too — type numbers, + − × ÷, Enter, Backspace.</p>
+    </main>
+
+    <script src="calculator-engine.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
