@@ -44,6 +44,7 @@ tests/
 - Keyboard shortcuts (Enter to calculate, Escape to clear)
 - Graceful error handling for invalid operations (e.g. division by zero) via a dialog instead of a crash
 - Unit-tested business logic layer
+- scientific functions (√, x², log), full keyboard input support, resizable/maximizable window, custom color theme.
 
 ## Building the Project
 
@@ -72,7 +73,7 @@ ctest
 ## Roadmap / Future Improvements
 
 - [ ] Calculation history panel
-- [ ] Scientific functions (sqrt, exponents, trigonometry)
+- [ ] Trigonometric functions (sin, cos, tan)
 - [ ] Dark mode theme toggle
 - [ ] Persistent settings via `QSettings`
 
