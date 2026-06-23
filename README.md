@@ -1,5 +1,7 @@
 # Qt Calculator
 
+🔗 **[Try my Calculator live](https://alpharianosei2005-maker.github.io/QtCalculator/)**
+
 A desktop calculator built with C++17 and the Qt 6 Widgets framework, designed around a clean separation between business logic and UI — the same architectural pattern used in production desktop and embedded software.
 
 
@@ -39,6 +41,7 @@ tests/
 
 ## Features
 
+- Available as a live web version (HTML/CSS/JavaScript) — see link above.
 - Standard arithmetic operations: addition, subtraction, multiplication, division
 - Decimal point support with duplicate-decimal prevention
 - Keyboard shortcuts (Enter to calculate, Escape to clear)
